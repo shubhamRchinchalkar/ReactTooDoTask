@@ -1,0 +1,1 @@
+This is To-Do App. It can store our todos & delete when it is completed. 
