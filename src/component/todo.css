@@ -1,0 +1,111 @@
+.main-container{
+    background-color: #c6f7ec;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    padding: 30px;
+}
+
+.todo-heading{
+    color: #14ad89;
+}
+
+.task-container{
+    width:300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+}
+
+.task-container:hover{
+    border: 2px solid green;
+}
+
+.description-container{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid greenyellow;
+    margin-left: 20px;
+}
+
+.description-container:hover{
+    border: 2px solid green;
+}
+
+select{
+    width: 200px;
+    height: 35px;
+    border: 2px solid greenyellow;
+    margin-left: 20px;
+}
+
+.todo-button{
+    height: 35px;
+    width: 250px;
+    background-color: #14ad89;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+}
+
+.status-container{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.button-all{
+    background-color: #fa938f;
+    height: 35px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.button-incomplete{
+    background-color: #fa938f;
+    height: 35px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.button-completed{
+    background-color: #fa938f;
+    height: 35px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.todo-container{
+    background-color: #f7c6e6;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.todo-name{
+    text-align: center;
+    margin-top: 20px;
+    color: #bd047c;
+}
+
+.todo-description{
+    margin-left: 20px;
+}
+
+.delete-button{
+    margin-left: 150px;
+    background-color: #bd047c;
+    color: white;
+}
